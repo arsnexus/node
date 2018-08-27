@@ -55,6 +55,7 @@
 #include <openssl/rand.h>
 
 #define SSL3_NUM_CIPHERS        OSSL_NELEM(ssl3_ciphers)
+#undef OPENSSL_NO_WEAK_SSL_CIPHERS
 
 /*
  * The list of available ciphers, mostly organized into the following
